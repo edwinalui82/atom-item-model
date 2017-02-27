@@ -1,0 +1,85 @@
+{
+    "content-item-name": "g510026_12",
+    "interaction-type": "shared-stimulus",
+    "categories": {
+        "difficulty": "-2.2676",
+        "GRAD-UQType": "set.longpsg",
+        "GRAD-USTopic": "rcset.naturalscience",
+        "GRAD-Difficulty": "low",
+        "GMAT2016-Recommendations": "verbal.rc"
+    },
+    "child-items": [
+        {
+            "content-item-name": "g510026_12.01",
+            "interaction-type": "single-select",
+            "categories": {
+                "difficulty": "-2.9518192",
+                "GRAD-UQType": "set.shortpsg",
+                "GRAD-UQTopic": "rc.global",
+                "GRAD-USTopic": "rcset.naturalscience",
+                "GRAD-Difficulty": "low",
+                "GMAT2016-Recommendations": "verbal.rc"
+            },
+            "child-items": [
+                {"content-item-name": "g510026_12.01-prompt"},
+                {"content-item-name": "g510026_12.01-choice-a"},
+                {"content-item-name": "g510026_12.01-choice-b"},
+                {"content-item-name": "g510026_12.01-choice-c"},
+                {
+                    "content-item-name": "g510026_12.01-choice-d",
+                    "correct": "yes"
+                },
+                {"content-item-name": "g510026_12.01-choice-e"},
+                {"content-item-name": "g510026_12.01-exp"}
+            ]
+        },
+        {
+            "content-item-name": "g510026_12.02",
+            "interaction-type": "single-select",
+            "categories": {
+                "difficulty": "-3.7676707",
+                "GRAD-UQType": "set.shortpsg",
+                "GRAD-UQTopic": "rc.detail",
+                "GRAD-USTopic": "rcset.naturalscience",
+                "GRAD-Difficulty": "low",
+                "GMAT2016-Recommendations": "verbal.rc"
+            },
+            "child-items": [
+                {"content-item-name": "g510026_12.02-prompt"},
+                {"content-item-name": "g510026_12.02-choice-a"},
+                {
+                    "content-item-name": "g510026_12.02-choice-b",
+                    "correct": "yes"
+                },
+                {"content-item-name": "g510026_12.02-choice-c"},
+                {"content-item-name": "g510026_12.02-choice-d"},
+                {"content-item-name": "g510026_12.02-choice-e"},
+                {"content-item-name": "g510026_12.02-exp"}
+            ]
+        },
+        {
+            "content-item-name": "g510026_12.03",
+            "interaction-type": "single-select",
+            "categories": {
+                "difficulty": "-0.0832894",
+                "GRAD-UQType": "set.shortpsg",
+                "GRAD-UQTopic": "rc.inference",
+                "GRAD-USTopic": "rcset.naturalscience",
+                "GRAD-Difficulty": "medium",
+                "GMAT2016-Recommendations": "verbal.rc"
+            },
+            "child-items": [
+                {"content-item-name": "g510026_12.03-prompt"},
+                {
+                    "content-item-name": "g510026_12.03-choice-a",
+                    "correct": "yes"
+                },
+                {"content-item-name": "g510026_12.03-choice-b"},
+                {"content-item-name": "g510026_12.03-choice-c"},
+                {"content-item-name": "g510026_12.03-choice-d"},
+                {"content-item-name": "g510026_12.03-choice-e"},
+                {"content-item-name": "g510026_12.03-exp"}
+            ]
+        }
+    ]
+}
