@@ -1,0 +1,19 @@
+{
+    "content-item-name": "mgc05003",
+    "interaction-type": "single-select",
+    "categories": {
+        "MCAT2015-QTopic": "cp.gc.ckin.rxnr",
+        "FieldTest": "yes"
+    },
+    "child-items": [
+        {"content-item-name": "mgc05003-prompt"},
+        {"content-item-name": "mgc05003-choice-a"},
+        {"content-item-name": "mgc05003-choice-b"},
+        {"content-item-name": "mgc05003-choice-c"},
+        {
+            "content-item-name": "mgc05003-choice-d",
+            "correct": "yes"
+        },
+        {"content-item-name": "mg05003-exp"}
+    ]
+}
