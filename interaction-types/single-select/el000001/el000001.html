@@ -23,7 +23,7 @@
                 <!-- If author changes order of choices in Habitat, e.g., swapping choices D and E, should register as changes to both D and E in Atom. -->
             </ol>
             <section data-kaplan-type="explanation" data-content-item-name="el000001-exp">
-                <!-- ID necessary here and in children only if we need to track changes from previous version of each chunk. IDs necessary for chunks within explanation? -->
+                <!-- ID necessary here and in children only if we need to track changes from previous version of each chunk. IDs necessary for chunks within explanation? One factor to consider: is there any scenario where a student might see some or all of below explanation content before an opportunity to answer this item (e.g., retaking an item, viewing a hint during answering, etc.) -->
                 <section data-kaplan-type="feedback-choice-a">
                     <!-- Store choice-level feedback here instead of as child of answer choice so that if feedback is modified, it does not register as a change to the answer choice itself. Store separate choice-level feedback separately bc no requirement that every answer choice has individual feedback? Or should these be grouped? -->
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -33,6 +33,7 @@
                 </section>
                 <!-- Explanation sections below based on MCAT. Do these need to be standardized, or can they be specific to tests? -->
                 <section data-kaplan-type="hint">
+                    <!-- Any chance there may eventually be tiered hints? I.e., student gets a series of hints, either via direct selection or based on successive incorrect answer attempts? If so, need to distinguish as hints 1 through x? -->
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </section>
                 <section data-kaplan-type="summary">
