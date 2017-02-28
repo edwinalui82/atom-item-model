@@ -1,0 +1,23 @@
+{
+    "content-item-name": "g500398_12",
+    "interaction-type": "single-select",
+    "categories": {
+        "difficulty": "-2.1335",
+        "GRAD-UQTopic": "grammar.clauses",
+        "GRAD-UQType": "discmc.scorr",
+        "GRAD-Difficulty": "low",
+        "GMAT2016-Recommendations": "verbal.sc"
+    },
+    "child-items": [
+        {"content-item-name": "g500398_12-prompt"},
+        {"content-item-name": "g500398_12-choice-a"},
+        {
+            "content-item-name": "g500398_12-choice-b",
+            "correct": "yes"
+        },
+        {"content-item-name": "g500398_12-choice-c"},
+        {"content-item-name": "g500398_12-choice-d"},
+        {"content-item-name": "g500398_12-choice-e"},
+        {"content-item-name": "g500398_12-exp"}
+    ]
+}
